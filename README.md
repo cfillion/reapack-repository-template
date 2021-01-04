@@ -1,6 +1,7 @@
 # ReaPack Repository Template
 
-A template for GitHub-hosted ReaPack repositories with automated  reapack-index
+A template for GitHub-hosted ReaPack repositories with automated
+[reapack-index](https://github.com/cfillion/reapack-index)
 running from GitHub Actions.
 
 Replace the name of the repository in [index.xml](/index.xml) when using this template.
