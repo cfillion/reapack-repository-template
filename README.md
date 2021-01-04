@@ -7,8 +7,11 @@ Replace the name of the repository in [index.xml](/index.xml) when using this te
 This will be the name shown in ReaPack.
 
 ```xml
-<index version="1" name="Name of your repository here"/>
+<index version="1" name="Name of your repository here">
 ```
+
+Replace the contents of this file ([README.md](/README.md)).
+This will be the text shown when using ReaPack's "About this repository" feature.
 
 reapack-index looks for package files in subfolders.
 The folder tree represents the package categories shown in ReaPack.
