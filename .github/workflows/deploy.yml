@@ -19,7 +19,7 @@ jobs:
     - name: Set up Ruby
       uses: ruby/setup-ruby@v1
       with:
-        ruby-version: '3.0'
+        ruby-version: 3.2
     - name: Install reapack-index
       run:  gem install reapack-index
     - name: Update index.xml
